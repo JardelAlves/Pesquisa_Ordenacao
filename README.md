@@ -1,4 +1,4 @@
-# Pesquisa_Ordenacao
+# Pesquisa e Ordenacao
 Estudando métodos de pesquisa e ordenação (Em construção)
 
 ## Tecnologias:
@@ -18,4 +18,4 @@ Estudando métodos de pesquisa e ordenação (Em construção)
 10. Heap Sort
 
 ## Métodos de Pesquisa:
-1. Pesquisa/Busca Linear
+1. Busca Linear
