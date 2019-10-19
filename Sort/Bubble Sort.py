@@ -17,5 +17,5 @@ def bubbleSort(lista):
     print("Lista Ordenada (Bubble Sort):")
     print(lista)
 
-bubbleSort(random_list(20))
 
+bubbleSort(random_list(20))
