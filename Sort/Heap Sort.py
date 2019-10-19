@@ -7,6 +7,8 @@
 from RandomHelper import random_list
 
 def heapSort(lista):
+    print("\nLista Original:")
+    print(lista)
     #Função que implementa o método de ordenamento Heap Sort.
     def selet(inicio, contador):  
         raiz = inicio  
@@ -32,9 +34,10 @@ def heapSort(lista):
     while fim > 0:  
         lista[fim], lista[0] = lista[0], lista[fim]  
         selet(0, fim)  
-        fim -= 1 
+        fim -= 1
+    print("\nLista Ordenada (Heap Sort):")
     return lista
 
-print("Lista Ordenada (Heap Sort):")
+
 print(heapSort(random_list(20)))
 

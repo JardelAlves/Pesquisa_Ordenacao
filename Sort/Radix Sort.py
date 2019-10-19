@@ -41,11 +41,11 @@ def listaRan(tam, lista):
         if num not in lista:
             lista.append(num)
             i+=1
-    print("Lista Desordenada:")
+    print("Lista Original:")
     print(lista)
 
 
 listaRan(20, lista)
 radixSort(lista)
-print("Lista Ordenada (Radix Sort):")
+print("\nLista Ordenada (Radix Sort):")
 print(lista)

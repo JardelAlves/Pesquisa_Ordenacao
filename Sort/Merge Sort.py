@@ -37,6 +37,9 @@ def mergeSort(lista):
             k += 1
     return lista
 
-
-print(mergeSort(random_list(20)))
+lista = random_list(20)
+print("Lista Original:")
+print(lista)
+print("\nLista Ordenada (Merge Sort):")
+print(mergeSort(lista))
 

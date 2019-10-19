@@ -31,12 +31,12 @@ def listaRan(tam, lista):
         if num not in lista:
             lista.append(num)
             i+=1
-    print("Lista Desordenada:")
+    print("Lista Original:")
     print(lista)
 
 
 listaRan(20, lista)
 countSort(lista)
-print("Lista Ordenada (Counting Sort):")
+print("\nLista Ordenada (Counting Sort):")
 print(listaaux)
 

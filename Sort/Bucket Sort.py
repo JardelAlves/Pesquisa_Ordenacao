@@ -22,6 +22,8 @@ def quickSort(lista):
     return quickSort(L)+[chave]+quickSort(R)
 
 def bucketSort(lista):
+    print("Lista Original:")
+    print(lista)
     #Função que implementa o método de ordenamento Bucket Sort.
     partMax = max(lista)
     part1 = [list() for _ in range(partMax)]
@@ -31,9 +33,8 @@ def bucketSort(lista):
     for part2 in part1:
         if len(part2) > 0:
             list_aux.append(quickSort(part2))
+    print("\nLista Ordenada (Bucket Sort):")
     return list_aux
 
 
-
-print("Lista Ordenada (Bucket Sort):")
 print(bucketSort(random_list(20)))

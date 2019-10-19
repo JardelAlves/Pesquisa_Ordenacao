@@ -29,12 +29,12 @@ def listaRan(tam, lista):
         if num not in lista:
             lista.append(num)
             i+=1
-    print("Lista Desordenada:")
+    print("Lista Original:")
     print(lista)
 
 
 listaRan(20, lista)
 shellSort(lista)
-print("Lista Ordenada (Shell Sort):")
+print("\nLista Ordenada (Shell Sort):")
 print(lista)
 

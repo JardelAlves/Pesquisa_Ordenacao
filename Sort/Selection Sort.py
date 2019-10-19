@@ -16,7 +16,7 @@ def selectionSort(lista):
                 valorminimo = j
         lista[i], lista[valorminimo] = lista[valorminimo], lista[i]
         
-    print("Lista Ordenada (Selection Sort):")
+    print("\nLista Ordenada (Selection Sort):")
     print(lista)
 
 def listaRan(tam, lista):
@@ -28,7 +28,7 @@ def listaRan(tam, lista):
         if num not in lista:
             lista.append(num)
             i+=1
-    print("Lista Desordenada:")
+    print("Lista Original:")
     print(lista)
 
 lista = []

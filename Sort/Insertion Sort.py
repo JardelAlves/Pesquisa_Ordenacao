@@ -11,6 +11,8 @@
 from RandomHelper import random_list
 
 def insertionSort(lista):
+    print("Lista Original:")
+    print(lista)
     #Função que implementa o método de ordenamento Insertion Sort.
     for i in range (1, len(lista)):
         chave = lista[i]
@@ -20,6 +22,7 @@ def insertionSort(lista):
             j-=1
         lista[j+1]=chave
         
+    print("\nLista Ordenada (Insertion Sort):")
     return lista
 
 

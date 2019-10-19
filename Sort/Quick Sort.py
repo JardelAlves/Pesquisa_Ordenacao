@@ -31,11 +31,11 @@ def listaRan(tam, lista):
         if num not in lista:
             lista.append(num)
             i+=1
-    print("Lista Desordenada:")
+    print("Lista Original:")
     print(lista)
 
 lista = []
 listaRan(20, lista)
 lista = quickSort(lista)
-print("Lista Ordenada (Quick Sort):")
+print("\nLista Ordenada (Quick Sort):")
 print(lista)
